@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    display: inline;
+}
+.se h1{
+background-color: rgb(22, 115, 115);
+font-size: 35px;
+text-align: center;
+color: aliceblue;
+padding: 10px;
+}
+.pics{
+    width: 100%;
+    height: 100vh;
+   
+}
+.pic img{
+    width: 400px;
+    height: 250px;
+}
+.pic{
+  display:flex;
+
+}
+.pic p{
+    margin: 10px;
+}
+.pics1{
+     width: 100%;
+    height: 100vh;
+    
+}
+.pic1 img{
+      width: 200px;
+    height: 200px;
+}
+.pic1 {
+   
+}
+.parent-pics{
+    display: grid;
+    grid-template-columns: 300px 300px ; 
+    justify-content: space-around;
+    align-items: center;
+}
+.er{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    justify-content: center;
+   gap: 50px;
+   margin:5px;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.parent img{
+ width: 300px;
+ height: 200px;
+ rotate: 180deg;
+}
+.parent p{
+margin-right: 10px;
+padding-left: 10px;
+text-align: none;
+}
+.btn{
+    background-color: yellow;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    font-size: 10px;
+}
+.w p{
+    align-items: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 15px;
+    color: grey;
+}
+.footer h1{
+    margin-top: 10px;
+    background-color: rgb(22, 115, 115);
+font-size: 45px;
+text-align: center;
+color: aliceblue;
+}
+.er{
+    margin-top: 10px;
+}
+.w{
+     width: 400px;
+    height: 250px;
+    display: inline-block;
+}
